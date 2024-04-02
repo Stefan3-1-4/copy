@@ -1,0 +1,96 @@
+.navigation {
+    margin: 1em;
+    width: 100%;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+    height: 70px;
+}
+.logoDiv{
+    flex-grow: 2;
+}
+.conectBtnDiv{
+    display: flex;
+    justify-content: center;
+    flex-grow: 2;
+}
+.logoA{
+    display: flex;
+    justify-content: center;
+}
+.links12345div{
+    display: flex;
+}
+.link1div, .link2div, .link3div, .link4div, .link5div{
+    display: flex;
+    flex-grow: 0.5;
+    margin: 5px;
+}
+.sortCateg{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    align-items: center;
+}
+.main{
+    margin: 1em;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+.menu{
+    width: 20%;
+    margin: 10px;
+}
+.products{
+    width: 80%;
+    margin: 5px;
+}
+.categMenu{
+    display: non; /*hiden menu*/
+}
+.priceMenu{
+    display: non; /*hiden menu*/
+}
+.topRow{
+    display: flex;
+    justify-content: space-between;
+}
+.menu2{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: center;
+}
+.sortCateg{
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+}
+.categ{
+    display: flex;
+    flex-direction: column;
+}
+.price{
+    display: flex;
+    flex-direction: column;
+}
+.priceMenu2{
+    display: flex;
+    justify-content: space-between;
+}
+#theLine{
+    width: 100%;
+    height: 5px;
+    margin: 50px;
+}
+.topRowPrice{
+    display: flex;
+    justify-content: space-between;
+}
+.toprow2Price{
+    display: flex;
+    justify-content: space-between;
+}
