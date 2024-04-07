@@ -1,3 +1,39 @@
+/*
+
+* {
+    outline: 1px solid rgba(255, 255, 255, 0.5) !important;
+    background-color: #fff !important;
+    box-shadow: 0 0 2px 1px rgba(255, 255, 255, 0.5) !important;
+  }
+  
+  *:hover {
+    outline: 1px solid rgba(0, 128, 255, 0.7) !important;
+    background-color: #fff !important;
+    box-shadow: 0 0 2px 1px rgba(0, 128, 255, 0.7) !important;
+  }
+  
+  *:active {
+    outline: 1px solid rgba(255, 165, 0, 0.9) !important;
+    background-color: #fff !important;
+    box-shadow: 0 0 2px 1px rgba(255, 165, 0, 0.9) !important;
+  }
+  
+  ::selection {
+    background-color: rgba(33, 150, 243, 0.7) !important;
+  }
+  
+  *:not(html):not(body):not(.container) {
+    border-color: rgba(155, 89, 182, 0.7) !important;
+  }
+  
+  .container {
+    outline: none !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+  }
+  
+*/
+
 .navigation {
     margin: 1em;
     width: 100%;
@@ -48,11 +84,11 @@
     width: 80%;
     margin: 5px;
 }
-.categMenu{
-    display: non; /*hiden menu*/
+.categMenuHide{
+    display: none; /*hiden menu*/
 }
-.priceMenu{
-    display: non; /*hiden menu*/
+.priceMenuHide{
+    display: none; /*hiden menu*/
 }
 .topRow{
     display: flex;

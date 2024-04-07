@@ -39,7 +39,8 @@
         <div class="rightSortDiv">
         <span>sorteaza dupa :</span>
             <select name="sort">
-                <option value="1">Pret crescator</option>
+                <option value="0" hidden>implicit</option>
+                <option value="1">pret crescator</option>
                 <option value="2">pret descrescator</option>
             </select>
         </div>
@@ -56,10 +57,10 @@
                                     <span>Categorii</span>
                             </div>
                             <div class="categDivForButton"> 
-                                    <button class="categBtn">+</button>
+                                    <button id="categBtn">+</button>
                             </div>
                         </div>
-                            <div class="categMenu" >
+                            <div id="categMenu" class="categMenu">
                                     <div id="divForA1">
                                         <a href="allAtag">Toate</a>
                                     </div>
@@ -82,10 +83,10 @@
                             <span class="priceSpan">Pret</span>
                         </div>
                         <div class="priceDivForButton">
-                            <button class="priceButton">+</button>
+                            <button id="priceButton">+</button>
                         </div>
                     </div>
-                    <div class="botRowPrice">
+                    <div id="botRowPrice" class="priceMenu">
                         <div class="toprow2Price">
                             <div class="minPriceDivSpan">xx lei</div>
                             <div class="maxPriceDevSpan">xxx lei</div>
@@ -120,5 +121,8 @@
     </div>
         
     </div>
+
+    <script src="../scripts/scripts.js"></script>
+
 </body>
 </html>
