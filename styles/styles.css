@@ -130,3 +130,15 @@
     display: flex;
     justify-content: space-between;
 }
+
+/* FOR TEST */
+.products{
+    display:grid;
+    background-color: red;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.product1, .product2, .product3, .product4, .product5, .product6{
+    background-color: blue;
+    display: flex;
+}

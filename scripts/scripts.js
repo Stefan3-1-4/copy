@@ -34,3 +34,4 @@ priceButton.addEventListener("click", function() {
 
     }
 });
+
