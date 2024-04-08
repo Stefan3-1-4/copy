@@ -7,11 +7,13 @@ categButton.addEventListener("click", function() {
 
         categMenu.classList.remove("categMenu");
         categMenu.classList.add("categMenuHide");
+        categButton.textContent = "+"
 
     } else if (categMenu.classList.contains("categMenuHide")) {
         
         categMenu.classList.remove("categMenuHide");
         categMenu.classList.add("categMenu");
+        categButton.textContent = "-"
 
     }
 
