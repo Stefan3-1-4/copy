@@ -246,3 +246,43 @@
 #priceButton :focus{
    border: none;
 }
+.product1, .product2, .product3, .product4, .product5, .product6{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: solid 1px rgb(148, 146, 146);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    font-family: sans-serif;
+}
+.pr1-bot, .pr2-bot, .pr3-bot, .pr4-bot, .pr5-bot, .pr6-bot{
+    display: flex;
+    justify-content: space-between;
+    max-width: auto;
+    padding: 10px;
+    color: rgb(164, 85, 238);
+
+    a { 
+        text-decoration: none; 
+        background-color: rgb(164, 85, 238);
+        color: white;
+        border: solid 10px rgb(164, 85, 238);
+        border-radius: 10px;
+    }
+    
+}
+.theLineProduct{
+    margin-top: 20px;
+    padding: 10px;
+    width: 380px;
+    border-top: solid 1px rgb(148, 146, 146);
+}
+
+.pr1-top, .pr2-top, .pr3-top, .pr4-top, .pr5-top, .pr6-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
